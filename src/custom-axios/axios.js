@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance=axios.create({
-    baseURL : 'http://localhost:8080/api',
+    baseURL : 'https://book-app-backend-lab2.herokuapp.com/api',
     headers: {
      'Access-Control-Allow-Origin' : '*'
     }
